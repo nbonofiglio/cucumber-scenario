@@ -1,5 +1,5 @@
-Feature:
-  <Some interesting description here>
+Feature: NewFeature
+  New feature description
 
   Scenario:
     Given I'm a user
