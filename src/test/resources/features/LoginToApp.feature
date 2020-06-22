@@ -1,7 +1,9 @@
 Feature:
-  Provide user login to insurance app to enter contact information for quote
+  Provided I am logging into the banking app as a child, only child activities are avaiable, 
+  not parent or admin activities/actions
 
   Scenario:
-    Given I am a user going to the insurance app
+    Given I am logged in as a child
     When I get to the homepage
-    Then it should allow me to login if I wish
+    Then it will only display the account balance
+    And activities/transactions for children
